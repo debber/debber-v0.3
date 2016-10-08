@@ -160,7 +160,7 @@ var (
 	//DistDirDefault is the default directory for built artifacts
 	DistDirDefault = outDirDefault
 
-	MaintainerScripts = []string{"postinst", "postrm", "prerm", "preinst"}
+	MaintainerScripts = []string{"conffiles", "postinst", "postrm", "prerm", "preinst"}
 
 	//SourceFields are the fields applicable to Source packages
 	//
